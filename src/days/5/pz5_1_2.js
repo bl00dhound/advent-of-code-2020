@@ -1,6 +1,8 @@
-const { get } = require('lodash');
+const { pathOr } = require('ramda');
 
 const { getData } = require('../../utils');
+
+const get = (object, properties) => pathOr(undefined, properties)(object);
 
 const sideObject = {
   r: {
