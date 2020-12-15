@@ -17,5 +17,5 @@ const prepareData = data => data
   .map(getUniqCounter)
   .reduce(sum);
 
-module.exports = () => getData('https://adventofcode.com/2020/day/6/input')
+module.exports = () => getData('https://adventofcode.com/2020/day/9/input')
   .then(prepareData);
