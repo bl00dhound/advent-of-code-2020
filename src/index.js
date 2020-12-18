@@ -1,4 +1,4 @@
-const currentPuzzleStart = require('./days/16/pz16_2');
+const currentPuzzleStart = require('./days/18/pz18_2');
 
 const start = Date.now();
 

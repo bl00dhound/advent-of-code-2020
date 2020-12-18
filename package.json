@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src",
-    "lint": "eslint ./src/**/*.js --fix"
+    "lint": "eslint ./src/**/*.js --fix",
+    "test": "jest ./src/days/**/*.spec.* --force-exit --runInBand"
   },
   "keywords": [],
   "author": "",
